@@ -1,6 +1,7 @@
 import { StoryblokComponent } from "@storyblok/react/rsc";
 
-export default function Page({ blok }) {
+//Content-type component (acts as template for all pages)
+export default function About({ blok }) {
   return (
     <main className="flex flex-col">
       {blok?.body?.map((blok) => (
